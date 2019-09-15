@@ -26,6 +26,6 @@ And to check no ExFAT-illegal file paths remain
 find ~/ -name "*[\\|\:|\*|\?|\<|\<|\>|\|]*"
 
 
- # find control characters in filepaths (these were mostly tab and newline characters)
+find control characters in filepaths (these were mostly tab and newline characters)
  
 find ~/ -name "*[:cntrl:]*"
